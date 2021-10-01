@@ -37,7 +37,7 @@
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="/"> <img src="{{ asset('assets/img/logo2.png') }}" alt="logo"> Syntics Software</a></h1>
+      <h2><a href="/"> <img src="{{ asset('assets/img/logo.png') }}" alt="logo" height="100px" width="auto"> Syntics Software House</a></h2>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
