@@ -147,7 +147,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="/"> <img src="{{ asset('assets/img/logo2.png') }}" alt="logo"> Syntics Software</a></h1>
+      <h1 class="logo"><a href="/"> <img src="{{ asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -242,137 +242,84 @@
             </div>
         </div>
         <br>
-        <!-- ======= Services Section ======= -->
-     <section class="services section-bg">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h2>Study-Internship Program Details</h2>
-            <p>We offer a one-year course in which we train our students. Once our students become trained developers, we give them professional experience by giving them an internship.</p>
-          </div>
-  
-          <div class="row gy-4">
-            <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon-box iconbox-blue">
-                <div class="icon">
-                  
-                  <i class="fas fa-laptop-code"></i>
-                </div>
-                <h4><a href="">Web Development</a></h4>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-            </div>
-            </div>
-  
-  
-            <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon-box iconbox-teal">
-                <div class="icon">
-                  
-                  <i class="fas fa-code-branch"></i>
-                </div>
-                <h4><a href="">AI Solutions</a></h4>
-                <p>We integrate our systems with Artificial Intelligence. We make sure that our product stands out.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-                <p>We create beautifully designed web apps precisely tailored to your situation. From providing Software as a Service to creating custom software to support your customers, our Web App team will get you up and running.</p>
-            </div>
-            </div>
-  
-          </div>
-  
-        </div>
-      </section><!-- End Services Section -->
-  
-
-    
-        <br><br><br><br>
- </main>
+                <!-- ======= Pricing Section ======= -->
+                <section id="pricing" class="pricing section-bg">
+                  <div class="container" data-aos="fade-up">
+            
+                    <div class="section-title">
+                      <h2>Study-Internship Program Details</h2>
+                      <p>We offer One Year courses which are specially designed for young enthusiasts. We offer market-competitve trainings and internship opportunities.</p>
+                    </div>
+                    
+                    
+                    <div class="row">
+            
+                      
+                      <div class="col-lg-6 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
+                        <div class="box featured">
+                            <span class="advanced">Advanced</span>
+                            <p><h3>Full-stack web development</h3> <br> <small>One Year Course</small> <br>
+                               </p>
+                            <h4><sup>PKR</sup>7000<span> / month</span></h4>
+                            <ul>
+                              <li><i class="fab fa-html5"></i> Html <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-css3-alt"></i> Css <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-bootstrap"></i> Bootstrap <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-php"></i> PHP <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-node-js"></i> Javascript <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-database"></i> Mysql <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-node"></i> NodeJs <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-laravel"></i> Laravel <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-server"></i> MongoDB <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-react"></i> ReactJs <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-vuejs"></i> VueJs <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
+                              {{-- <li class="na">Pharetra massa</li> --}}
+                              {{-- <li class="na">Massa ultricies mi</li> --}}
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+                        <div class="box featured">
+                            <span class="advanced">Advanced</span>
+                            <p><h3>Artificial Intelligence (Machine Learning & Deep Learning)</h3> <br> <small>One Year Course</small> <br>
+                               </p>
+                            <h4><sup>PKR</sup>7500<span> / month</span></h4>
+                            <ul>
+                              
+                              <li><i class="fas fa-calculator"></i> Math Foundations <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-python"></i> Python <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-database"></i> Data-structures <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-hive"></i> Intro to Artificial Intelligence <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-trade-federation"></i> Advanced Python Libraries <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-project-diagram"></i> AI projects <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-laptop-code"></i> Machine Learning <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-code-branch"></i> Machine Learning Projects <i class="fas fa-check"></i></li>
+                              <li><i class="fab fa-codepen"></i> Deep Learning <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-code-branch"></i> Deep Learning Projects <i class="fas fa-check"></i></li>
+                              <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
+                              <li></li>
+                              {{-- <li class="na">Pharetra massa</li> --}}
+                              {{-- <li class="na">Massa ultricies mi</li> --}}
+                            </ul>
+                        </div>
+                      </div>
+                      
+                    </div>
+            
+                  </div>
+                </section>
+                <!-- End Pricing Section -->  
+      </main>
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Baker</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
     <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span>Baker</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>Syntics</span></strong>. All Rights Reserved
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+        
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
