@@ -13,22 +13,22 @@
   <script src="https://kit.fontawesome.com/e2d4df4492.js" crossorigin="anonymous"></script>
               
   <!-- Favicons -->
-  <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
-  <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
+  <link href="{{ secure_asset('assets/img/logo.png') }}" rel="icon">
+  <link href="{{ secure_asset('assets/img/logo.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
   <!-- bootstrap5 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Template Main CSS File -->
-  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet">
   <style>
     .body {
       color: rgba(55, 64, 85, 0.9) !important;
@@ -43,7 +43,7 @@
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h2 class="logo"><a href="/"> <img src="{{ asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
+      <h2 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -76,7 +76,7 @@
       <h1>We provide custom digital solutions for our clients and trainings for enthusiasts</h1>
       {{-- <h2 style="font-style: bold">Introducing Training for young enthusiasts</h2> --}}
       {{-- <hr class="bg-white container"> --}}
-      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee)</span></h2>
+      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee)</span></h2>
       
       {{-- <hr class="bg-white container"> --}}
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
@@ -94,19 +94,19 @@
          
 
           <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
+            <img src="{{ secure_asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
           </div>
       
           <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
+            <img src="{{ secure_asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
+            <img src="{{ secure_asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
+            <img src="{{ secure_asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
           </div>
         
 
@@ -123,7 +123,7 @@
           <div class="col-md-6">
             <div class="embed-responsive embed-responsive-16by9">
               <video controls class="embed-responsive-item">
-                <source src="{{ asset('assets/main-video.mp4') }}" type="video/mp4">
+                <source src="{{ secure_asset('assets/main-video.mp4') }}" type="video/mp4">
               </video>
             </div>
           </div>
@@ -579,7 +579,7 @@
                 <p>We offer One Year courses which are specially designed for young enthusiasts. We offer market-competitve trainings and internship opportunities.</p>
               </div>
               <div class="container my-5 justify-content-center d-flex">
-                  <img src="{{ asset('/assets/img/Internships.png') }}" alt="We offer Internship opportunities" class="img-fluid">
+                  <img src="{{ secure_asset('/assets/img/Internships.png') }}" alt="We offer Internship opportunities" class="img-fluid">
               </div>
               
               <div class="row">

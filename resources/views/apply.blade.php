@@ -13,8 +13,8 @@
   <script src="https://kit.fontawesome.com/e2d4df4492.js" crossorigin="anonymous"></script>
               
   <!-- Favicons -->
-  <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
-  <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
+  <link href="{{ secure_asset('assets/img/logo.png') }}" rel="icon">
+  <link href="{{ secure_asset('assets/img/logo.png') }}" rel="apple-touch-icon">
 
   <!-- bootstrap5 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -23,14 +23,14 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet">
   <style>
     .body {
       color: rgba(55, 64, 85, 0.9) !important;
@@ -121,7 +121,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="/"> <img src="{{ asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h1>
+      <h1 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -152,7 +152,7 @@
      
          <br><br><br><br>
          <div class="container mt-5">
-             <img src="{{ asset('assets/img/apply.png') }}" alt="apply banner" class="img-fluid">
+             <img src="{{ secure_asset('assets/img/apply.png') }}" alt="apply banner" class="img-fluid">
             <div class="row d-flex justify-content-center align-items-center">
                 {{-- <div class="col-md-6 mt-5 mx-5 shadow-sm bg-transparent">
                     <form style="color: rgba(55, 64, 85, 0.9) !important;" id="regForm" action="{{ route('apply.store') }}" method="POST">
