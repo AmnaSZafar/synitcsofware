@@ -32,7 +32,84 @@
     .body {
       color: rgba(55, 64, 85, 0.9) !important;
     }
+
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+     color: rgba(55, 64, 85, 0.9);
+    background: rgba(55, 64, 85, 0.9);
+    background: -moz-linear-gradient(left,rgba(121, 134, 165, 0.9)  0%,rgba(55, 64, 85, 0.9) 100%) !important;
+    background: -webkit-linear-gradient(left,rgba(121, 134, 165, 0.9)  0%,rgba(55, 64, 85, 0.9) 100%) !important;
+    background: linear-gradient(to right,rgba(121, 134, 165, 0.9)  0%,rgba(55, 64, 85, 0.9)  100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: rgba(55, 64, 85, 0.9);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: rgba(55, 64, 85, 0.9);
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(125deg,rgba(121, 134, 165, 0.9),rgba(55, 64, 85, 0.9));
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+
   </style>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -75,9 +152,10 @@
          <div class="container mt-5">
              <img src="{{ asset('assets/img/apply.png') }}" alt="apply banner" class="img-fluid">
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-md-6 mt-5 mx-5 shadow-sm bg-transparent">
+                {{-- <div class="col-md-6 mt-5 mx-5 shadow-sm bg-transparent">
                     <form style="color: rgba(55, 64, 85, 0.9) !important;" id="regForm" action="{{ route('apply.store') }}" method="POST">
                       @csrf
+                      
                       <h1 class="text-center">Application Form</h1>
                       @if ($errors->any())
                         <div class="text-danger text-center align-middle shadow-sm">
@@ -131,10 +209,72 @@
                       </div>
                       <br><br>
                     </form>
-                </div>
+                </div> --}}
             </div>
         </div>
         <br>
+        <section class="get-in-touch">
+          <h1 class="title">Application Form</h1>
+          <form class="contact-form row"action="{{ route('apply.store') }}" method="POST">
+            @csrf
+            @if ($errors->any())
+              <div class="text-danger text-center align-middle shadow-sm">
+                  
+                      @foreach ($errors->all() as $error)
+                        <h3>{{ $error }}</h3> <br>
+                      @endforeach
+              </div>
+            @endif
+             <div class="form-field col-lg-6">
+                <input id="name" class="input-text js-input" type="text" required name="name">
+                <label class="label" for="name">Name</label>
+             </div>
+             <div class="form-field col-lg-6 ">
+                <input id="email" class="input-text js-input" type="email" required name="email">
+                <label class="label" for="email">E-mail</label>
+             </div>
+             <div class="form-field col-lg-6 ">
+                <input id="company" class="input-text js-input" type="text" required name="city">
+                <label class="label" for="company">City</label>
+             </div>
+             <div class="form-field col-lg-6">
+              <select class="input-text js-input" name="program" id="program" required>
+                <option value="">&nbsp;</option>
+                <option value="ai">(One Year) Artificial Intelligence (Machine Learning & Deep Learning)</option>
+                <option value="web">(One Year) Full-Stack Website Development</option>
+                <option value="both">Both</option>
+              </select>
+              <label class="label" for="program">Study-Internship Program</label>
+             </div>
+             <div class="form-field col-lg-6">
+              <select class="input-text js-input" name="shift" id="shift" required>
+                <option value="">&nbsp;</option>
+                <option value="morning">Morning</option>
+                <option value="evening">Evening</option>
+              </select>
+              <label class="label" for="shift">Timings</label>
+             </div>
+             <div class="form-field col-lg-6">
+              <select class="input-text js-input" name="education" id="education" required>
+                <option value="">&nbsp;</option>
+                <option value="interStudent">I am a student doing O/A Levels or Intermediate</option>
+                <option value="interComplete">I have just completed my O/A Levels or Intermediate</option>
+                <option value="bachelorStudent">I am a student doing a Bachelor's degree</option>
+                <option value="bachelorComplete">I have just completed Bachelor's degree</option>
+                <option value="other">Other</option>
+              </select>
+              <label class="label" for="education">Your Education Level</label>
+             </div>
+              <div class="form-field col-lg-6 ">
+                <input id="phone" name="phone" class="input-text js-input" type="text" required>
+                <label class="label" for="phone">Contact Number</label>
+             </div>
+             
+             <div class="form-field col-lg-12">
+                <input class="submit-btn" type="submit" value="Submit">
+             </div>
+          </form>
+       </section>
                 <!-- ======= Pricing Section ======= -->
                 <section id="pricing" class="pricing section-bg">
                   <div class="container" data-aos="fade-up">
