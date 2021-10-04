@@ -13,21 +13,22 @@
   <script src="https://kit.fontawesome.com/e2d4df4492.js" crossorigin="anonymous"></script>
               
   <!-- Favicons -->
-  <link href="{{ secure_asset('assets/img/logo.png') }}" rel="icon">
-  <link href="{{ secure_asset('assets/img/logo.png') }}" rel="apple-touch-icon">
+  <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{ secure_asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-
+  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+  <!-- bootstrap5 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Template Main CSS File -->
-  <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
   <style>
     .body {
       color: rgba(55, 64, 85, 0.9) !important;
@@ -42,7 +43,7 @@
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h2 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
+      <h2 class="logo"><a href="/"> <img src="{{ asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -51,7 +52,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          {{-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> --}}
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           {{-- <li><a class="nav-link scrollto" href="#team">Team</a></li> --}}
           {{-- <li><a class="nav-link scrollto" href="#pricing">Courses</a></li> --}}
           <li class="dropdown"><a class="nav-link scrollto" href="#pricing"><span>Study-Internship Program</span> <i class="bi bi-chevron-down"></i></a>
@@ -72,11 +73,11 @@
   <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container position-relative">
       {{-- <hr class="bg-white container"> --}}
-      <h1>We train & build Digital Solutions</h1>
+      <h1>We provide custom digital solutions for our clients and trainings for enthusiasts</h1>
+      {{-- <h2 style="font-style: bold">Introducing Training for young enthusiasts</h2> --}}
       {{-- <hr class="bg-white container"> --}}
-      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="30px" width="auto" alt=""></a>  | Scholarships for Toppers</h2>
+      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee)</span></h2>
       
-      <h2>We provide custom digital solutions for our clients and trainings for enthusiasts</h2>
       {{-- <hr class="bg-white container"> --}}
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
 
@@ -86,31 +87,28 @@
   <main id="main">
     
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
+    <section id="clients" class="clients section-bg" style="background-color: rgba(55, 64, 85, 0.9)">
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" class="img-fluid" alt="">
-          </div>
+         
 
-          <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
           </div>
       
-          <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-4 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-1"></div>
+        
 
 
         </div>
@@ -122,13 +120,16 @@
     <section id="about" class="about">
       <div class="container">
         <div class="row d-flex justify-content-center">
-          
-            <video width="350" controls>
-              <source src="{{ secure_asset('assets/main-video.mp4') }}" type="video/mp4">
-            </video>
-         
-          
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+              <video controls class="embed-responsive-item">
+                <source src="{{ asset('assets/main-video.mp4') }}" type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
+       
+        <br><br>
         <div class="row">
           <div class="col-lg-6">
             <img src="assets/img/p2.jpeg" class="img-fluid" alt="">
@@ -373,121 +374,111 @@
     <!-- End Testimonials Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    {{-- <section id="portfolio" class="portfolio">
-      <div class="container">
+    <section id="portfolio" class="services section-bg">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 style="color: rgba(55, 64, 85, 0.9) !important; font-size: 40px;">Commercial Projects that we are working on!</h2>
+          {{-- <p>We offer a full range of engineering services that your company needs</p> --}}
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">International Payment Gateway | Digital Banking <br> in Canada</h4>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">Hosting & Domain Service Provider <br> in Canada</h4>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">
+              Home & Commercial Security with AI <br>Pakistan</h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">Advanded Medical Facilities with AI <br> Pakistan</h4>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">A Project of Analytics (an E.R.P)<br> in Canada</h4>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">
+              FMCG (Fast Moving Consumer Goods) Delivery System <br> in Pakistan</h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">Online Job Portal for everyone <br> Worldwide</h4>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">Ecommerce Digital Webshop <br> Worlwide</h4>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              
+              <h4 class="text-center" style="font-weight:900 !important;
+              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">
+              Advanced Courier System coming soon<br> in Pakistan</h4>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section> --}}
+    </section><!-- End Services Section -->
+
     <!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
@@ -588,7 +579,7 @@
                 <p>We offer One Year courses which are specially designed for young enthusiasts. We offer market-competitve trainings and internship opportunities.</p>
               </div>
               <div class="container my-5 justify-content-center d-flex">
-                  <img src="{{ secure_asset('/assets/img/Internships.png') }}" alt="We offer Internship opportunities" class="img-fluid">
+                  <img src="{{ asset('/assets/img/Internships.png') }}" alt="We offer Internship opportunities" class="img-fluid">
               </div>
               
               <div class="row">
@@ -639,6 +630,47 @@
                         <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
                         {{-- <li class="na">Pharetra massa</li> --}}
                         {{-- <li class="na">Massa ultricies mi</li> --}}
+                        <p>
+                          <button class="btn btn-outline-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Read More
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                          <div class="card card-body">
+                            During the course of ONE YEAR, students will have to pass multiple levels.
+                            <b>Level 1</b>
+                              Understanding Data Structures <br>
+                              Algorithmic Exercises <br>
+                              Understanding Big-O & optimized algorithms <br>
+                            <b>Level 2</b>
+                              Front-end Basics: <br>
+                              HTML <br>
+                              CSS <br>
+                              Bootstrap <br>
+                              Tailwind CSS <br>
+                              PHP <br>
+                              Javascript <br>
+                              <b>Level 2</b>
+                              Back-end Basics:
+                              SQL/MYSQL/POSTGRE SQL <br>
+                              Api<br>
+                              Nodejs <br>
+                              Laravel <br>
+                              Implement relational databases and schemas <br>
+                              <b>Level 3</b>
+                              React<br>
+                              Redux<br>
+                              Express js <br>
+                              start building portfolio projects <br>
+                              <b>Level 4</b>
+                              LAMP STACK <br>
+                              MERN STACK <br>
+                              <b>Level 5</b>
+                              Internships <br>
+                              Freelancing portal access by Syntics <br>  
+                          
+                          </div>
+                        </div>
                       </ul>
                   </div>
                 </div>
@@ -662,8 +694,42 @@
                         <li><i class="fas fa-code-branch"></i> Deep Learning Projects <i class="fas fa-check"></i></li>
                         <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
                         <li></li>
-                        {{-- <li class="na">Pharetra massa</li> --}}
-                        {{-- <li class="na">Massa ultricies mi</li> --}}
+                             
+                              <p>
+                                <button class="btn btn-outline-secondary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                  Read More
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample2">
+                                <div class="card card-body">
+                                  During the course of ONE YEAR, students will have to pass multiple levels.
+                                  <b>Level 1</b>
+                                    Math Foundations: <br>
+                                    Discrete Mathematics <br>
+                                    Data Structures <br>
+                                    Programming Basics in python (Part 1) <br>
+                                    Programming Basics in python (Part 2) <br>
+                                    Artificial Intelligence Basics <br>
+                                    <b>Level 2</b>
+                                    Artificial Intelligence Branches <br>
+                                    Advanced Mathematics <br>
+                                    Neural Networks Basics<br>
+                                    Neural Network Projects <br>
+                                    <b>Level 3</b>
+                                    What is Machine Learning <br>
+                                    Advanced Python Libraries like Tensorflow, numpy, pandas... <br>
+                            
+                                    Machine Learning Projects using databases<br>
+                                    <b>Level 4</b>
+                                    What is Deep Learning <br>
+                                    Advanced Python Libraries like Keras <br>
+                                    Deep Learning Projects using databases<br>
+                                    <b>Level 5</b>
+                                    Internships <br>
+                                    Freelancing portal access by Syntics <br>
+                                    
+                                </div>
+                              </div>
                       </ul>
                   </div>
                 </div>
@@ -739,7 +805,7 @@
             </div>
             
             <div class="container my-5 justify-content-center d-flex">
-              <button class="p-5 border-0 bg-transparent shadow-lg" style="border-radius: 20px; font-size:20px"><a href="{{ route('apply.index') }}"> <b>Apply NOW</b></a></button>
+              <button class="p-3 border-0 bg-transparent shadow-lg" style="border-radius: 20px; font-size:20px"><a href="{{ route('apply.index') }}"> <b>Apply NOW</b></a></button>
             </div>
           </section>
           <!-- End Pricing Section -->
@@ -966,6 +1032,55 @@
   </main><!-- End #main -->
   <!-- ======= Footer ======= -->
   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Syntics Software</h3>
+            <p>
+              Ferozpur, Lahore<br>
+              Pakistan <br>
+              <strong>Email:</strong> <br> amna@syntics.co<br>azlan@syntics.co <br>faizan@syntics.co
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#services">Services</a></li>
+              {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li> --}}
+              {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> --}}
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#services">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#services">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#services">App Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#services">QA Testing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#services">AI Solutions</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Our Trainings</h4>
+            <ul>
+              {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li> --}}
+              <li><i class="bx bx-chevron-right"></i> <a href="/#pricing">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#pricing">AI</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#pricing">Game Development</a></li>
+              {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> --}}
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
     <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
@@ -995,6 +1110,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 
