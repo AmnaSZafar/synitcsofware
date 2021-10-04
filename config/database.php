@@ -64,7 +64,7 @@ return [
         ],
 
         'pgsql' => [
-            'pgsql' => [
+           
                 'driver' => 'pgsql',
                     'read' => [
                         'host' => [
