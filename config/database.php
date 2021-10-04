@@ -64,10 +64,19 @@ return [
         ],
 
         'pgsql' => [
-            'driver' => 'pgsql',
+            'driver' => 'pgsql','read' => [
+                    'host' => [
+                        env('DB_HOST_READ'),
+                    ],
+                ],
+                'write' => [
+                    'host' => [
+                        env('DB_HOST_WRITE'),
+                    ],
+                ],
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
+            'host' => env('DB_HOST', 'app-21771dcd-6e0b-4a16-a4b2-1a8f0da585ea-do-user-9800742-0.b.db.ondigitalocean.com'),
+            'port' => env('DB_PORT', '25060'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
