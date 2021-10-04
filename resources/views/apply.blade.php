@@ -148,7 +148,6 @@
  <main id="main">
      
          <br><br><br><br>
-         
          <div class="container mt-5">
              <img src="{{ secure_asset('assets/img/apply.png') }}" alt="apply banner" class="img-fluid">
             <div class="row d-flex justify-content-center align-items-center">
@@ -210,10 +209,11 @@
                       <br><br>
                     </form>
                 </div> --}}
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbgDl8rI8WsqPnXEBJlzMVwqt3LkbWN5Qak5FxW25zEXXVew/viewform?embedded=true" width="640" height="1447" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
         <br>
-        <section class="get-in-touch">
+        {{-- <section class="get-in-touch">
           <h1 class="title">Application Form</h1>
           <form class="contact-form row" action="{{ route('apply.store') }}" method="POST">
             @csrf
@@ -274,7 +274,7 @@
                 <input class="submit-btn" type="submit" value="Submit">
              </div>
           </form>
-       </section>
+       </section> --}}
                 <!-- ======= Pricing Section ======= -->
                 <section id="pricing" class="pricing section-bg">
                   <div class="container" data-aos="fade-up">
