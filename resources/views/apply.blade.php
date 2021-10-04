@@ -215,7 +215,7 @@
         <br>
         <section class="get-in-touch">
           <h1 class="title">Application Form</h1>
-          <form class="contact-form row"action="{{ route('apply.store') }}" method="POST">
+          <form class="contact-form row" action="{{ route('apply.store') }}" method="POST">
             @csrf
             @if ($errors->any())
               <div class="text-danger text-center align-middle shadow-sm">
