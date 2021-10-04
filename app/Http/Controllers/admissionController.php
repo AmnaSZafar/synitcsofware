@@ -44,6 +44,7 @@ class admissionController extends Controller
             'program'=>$request->input('program'),
             'shift'=>$request->input('shift'),
             'phone'=>$request->input('phone'),
+            'education'=>$request->input('education'),
             
         ]);
         return redirect(route('apply.index'));

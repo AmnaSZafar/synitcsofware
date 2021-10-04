@@ -13,21 +13,26 @@
   <script src="https://kit.fontawesome.com/e2d4df4492.js" crossorigin="anonymous"></script>
               
   <!-- Favicons -->
-  <link href="{{ secure_asset('assets/img/favicon.png') }}" rel="icon">
-  <link href="{{ secure_asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+  <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{ secure_asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  <style>
+    .body {
+      color: rgba(55, 64, 85, 0.9) !important;
+    }
+  </style>
 
 </head>
 
@@ -37,7 +42,7 @@
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h2 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software House</a></h2>
+      <h2 class="logo"><a href="/"> <img src="{{ asset('assets/img/logo.png') }}" alt="logo"> Syntics Software House</a></h2>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -66,8 +71,13 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container position-relative">
-      <h1>We build Digital Solutions</h1>
+      <hr class="bg-white container">
+      <h1>We train & build Digital Solutions</h1>
+      {{-- <hr class="bg-white container"> --}}
+      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ asset('assets/img/clients/client-1.png') }}" height="30px" width="auto" alt=""></a>  | Scholarships for Toppers</h2>
+      
       <h2>We provide custom digital solutions for our clients and trainings for enthusiasts</h2>
+      <hr class="bg-white container">
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
   </section><!-- End Hero -->
@@ -79,30 +89,28 @@
       <div class="container">
 
         <div class="row">
-
+          <div class="col-lg-1"></div>
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-1.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
           </div>
+          <div class="col-lg-1"></div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-6.png') }}" class="img-fluid" alt="">
-          </div>
 
         </div>
 
@@ -181,7 +189,7 @@
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
-            <h2>Services</h2>
+            <h2 style="color: rgba(55, 64, 85, 0.9) !important; font-size: 40px;">Services</h2>
             <p>We offer a full range of engineering services that your company needs</p>
           </div>
   
@@ -568,11 +576,11 @@
             <div class="container" data-aos="fade-up">
       
               <div class="section-title">
-                <h2>Trainings</h2>
+                <h2 style="color: rgba(55, 64, 85, 0.9) !important; font-size: 40px;">Trainings</h2>
                 <p>We offer One Year courses which are specially designed for young enthusiasts. We offer market-competitve trainings and internship opportunities.</p>
               </div>
               <div class="container my-5 justify-content-center d-flex">
-                  <img src="{{ secure_asset('/assets/img/Internships.png') }}" alt="We offer Internship opportunities" class="img-fluid">
+                  <img src="{{ asset('/assets/img/Internships.png') }}" alt="We offer Internship opportunities" class="img-fluid">
               </div>
               
               <div class="row">
@@ -607,7 +615,7 @@
                       <span class="advanced">Advanced</span>
                       <p><h3>What We Offer</h3> <br> <small>One Year Course</small> <br>
                          Full-stack web development</p>
-                      <h4><sup>PKR</sup>7000<span> / month</span></h4>
+                      <h4><sup>PKR</sup>6,667<span> / month</span></h4>
                       <ul>
                         <li><i class="fab fa-html5"></i> Html <i class="fas fa-check"></i></li>
                         <li><i class="fab fa-css3-alt"></i> Css <i class="fas fa-check"></i></li>
@@ -631,7 +639,7 @@
                       <span class="advanced">Advanced</span>
                       <p><h3>What We Offer</h3> <br> <small>One Year Course</small> <br>
                          Artificial Intelligence (Machine Learning & Deep Learning)</p>
-                      <h4><sup>PKR</sup>7500<span> / month</span></h4>
+                      <h4><sup>PKR</sup>7,100<span> / month</span></h4>
                       <ul>
                         
                         <li><i class="fas fa-calculator"></i> Math Foundations <i class="fas fa-check"></i></li>
@@ -883,7 +891,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2 style="color: rgba(55, 64, 85, 0.9) !important; font-size: 40px;">Contact</h2>
           <p></p>
         </div>
 
@@ -895,22 +903,22 @@
               <div class="col-md-12">
                 <div class="info-box">
                   <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>Ferozpur Road, Lahore, Pakistan</p>
+                  <h3 style="color: rgba(55, 64, 85, 0.9) !important;">Our Address</h3>
+                  <p style="color: rgba(55, 64, 85, 0.9) !important;">Ferozpur Road, Lahore, Pakistan</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>amna@syntics.co<br>ezhan@syntics.co</p>
+                  <h3 style="color: rgba(55, 64, 85, 0.9) !important;">Email Us</h3>
+                  <p style="color: rgba(55, 64, 85, 0.9) !important;">amna@syntics.co<br>ezhan@syntics.co</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
-                  <h3>Call Us</h3>
-                  <p>+923084339423<br> &nbsp;</p>
+                  <h3 style="color: rgba(55, 64, 85, 0.9) !important;">Call Us</h3>
+                  <p style="color: rgba(55, 64, 85, 0.9) !important;">+923084339423<br> &nbsp;</p>
                 </div>
               </div>
             </div>
@@ -953,7 +961,7 @@
     <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
+        <div class="copyright" style="color: rgba(55, 64, 85, 0.9) !important;">
           &copy; Copyright <strong><span>Syntics</span></strong>. All Rights Reserved
         </div>
         

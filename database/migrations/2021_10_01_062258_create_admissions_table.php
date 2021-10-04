@@ -19,6 +19,7 @@ class CreateAdmissionsTable extends Migration
             $table->string('email')->unique();
             $table->string('city');
             $table->string('program');
+            $table->string('education');
             $table->string('shift');
             $table->string('phone');
             $table->timestamps();

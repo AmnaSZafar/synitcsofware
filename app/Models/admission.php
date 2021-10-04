@@ -15,5 +15,6 @@ class admission extends Model
         'program',
         'shift',
         'phone',
+        'education',
     ];
 }
