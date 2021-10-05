@@ -76,10 +76,11 @@
       <h1>We provide custom digital solutions for our clients and trainings for enthusiasts</h1>
       {{-- <h2 style="font-style: bold">Introducing Training for young enthusiasts</h2> --}}
       {{-- <hr class="bg-white container"> --}}
-      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee)</span></h2>
+      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee) <br>Remote access for Students & Females</span></h2>
       
       {{-- <hr class="bg-white container"> --}}
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      {{-- <a href="#about" class="btn-get-started scrollto">Get Started</a> --}}
+      <a href="https://youtu.be/TF3tLr33v2M" class="btn-get-started scrollto"><i class="fas fa-play-circle"></i> Get to know us better</a>
 
     </div>
   </section><!-- End Hero -->
@@ -119,7 +120,7 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
-        <div class="row d-flex justify-content-center">
+        {{-- <div class="row d-flex justify-content-center">
           <div class="col-md-6">
             <div class="embed-responsive embed-responsive-16by9">
               <video controls class="embed-responsive-item">
@@ -129,7 +130,7 @@
           </div>
         </div>
        
-        <br><br>
+        <br><br> --}}
         <div class="row">
           <div class="col-lg-6">
             <img src="assets/img/p2.jpeg" class="img-fluid" alt="">
@@ -169,17 +170,17 @@
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
             <p>Clients</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
             <p>Projects</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
             <p>Hours Of Support</p>
           </div>
 
@@ -384,94 +385,101 @@
 
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">International Payment Gateway | Digital Banking <br> in Canada</h4>
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>International Payment Gateway | Digital Banking (Canada)</h4>
+              <p>Our Team at Syntics is working on creating an International Payment System that would modernize the lives of the people.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box iconbox-orange ">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">Hosting & Domain Service Provider <br> in Canada</h4>
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>Hosting & Domain Service Provider (Canada)</h4>
+              <p>Optimal Hosting service is essential, that is why our Team at Syntics Hosting Service Provider is working to create a hosting service suitable for all.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box iconbox-pink">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">
-              Home & Commercial Security with AI <br>Pakistan</h4>
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>Home & Commercial Security with AI (Pakistan)</h4>
+              <p>Having a fool-proof & affordable security system  is essential. Our Team at Syntics is working to create security systems that are affordable and easy to install.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box iconbox-blue">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">Advanded Medical Facilities with AI <br> Pakistan</h4>
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>Advanded Medical Facilities with AI (Pakistan)</h4>
+              <p>Safe medical assistance is extremely important for Syntics. Syntics Health assistance is coming soon.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box iconbox-orange ">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">A Project of Analytics (an E.R.P)<br> in Canada</h4>
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>A Project of Analytics (an E.R.P) (Canada)</h4>
+              <p>Syntics is branching out into multiple sectors. Analytics is another branch is Syntics which is coming soon.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box iconbox-pink">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">
-              FMCG (Fast Moving Consumer Goods) Delivery System <br> in Pakistan</h4>
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>FMCG (Fast Moving Consumer Goods) Delivery System (Pakistan)</h4>
+              <p>Syntics has brought it all, food, Grocery, and other consumable goods. Syntics Delivery is coming soon in Pakistan.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box iconbox-blue">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">Online Job Portal for everyone <br> Worldwide</h4>
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>Online Job Portal</h4>
+              <p>Syntics is developing an International Job portal which would allow easy access, premium job offers and much more.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box iconbox-orange ">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">Ecommerce Digital Webshop <br> Worlwide</h4>
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>Ecommerce Digital Webshop</h4>
+              <p>Syntics is developing an International ecommerce digital portal. Coming Soon Internationally.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box iconbox-pink">
-              
-              <h4 class="text-center" style="font-weight:900 !important;
-              background: -webkit-linear-gradient(45deg,rgba(55, 64, 85, 0.9), rgba(169, 168, 236, 0.9));
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;">
-              Advanced Courier System coming soon<br> in Pakistan</h4>
-            </div>
+              <div class="icon">
+                  
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4>Advanced Courier System (Pakistan)</h4>
+              <p>Our aim at Syntics is to optimize Courier system in Pakistan. Our project is coming out soon.</p>
+            
+             </div>
           </div>
 
         </div>
@@ -755,6 +763,9 @@
                       <li></li>
                       <li></li>
                       <li></li>
+                      <li></li>
+                      <li></li>
+                      
                       {{-- <li class="na">Pharetra massa</li> --}}
                       {{-- <li class="na">Massa ultricies mi</li> --}}
                     </ul>
@@ -985,7 +996,7 @@
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3 style="color: rgba(55, 64, 85, 0.9) !important;">Email Us</h3>
-                  <p style="color: rgba(55, 64, 85, 0.9) !important;">amna@syntics.co<br>ezhan@syntics.co</p>
+                  <p style="color: rgba(55, 64, 85, 0.9) !important;">amna@syntics.co<br>azlan@syntics.co</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -1039,7 +1050,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Syntics Software</h3>
             <p>
-              Ferozpur, Lahore<br>
+              Ferozpur Road, Lahore<br>
               Pakistan <br>
               <strong>Email:</strong> <br> amna@syntics.co<br>azlan@syntics.co <br>faizan@syntics.co
             </p>

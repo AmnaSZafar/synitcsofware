@@ -433,7 +433,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Syntics Software</h3>
             <p>
-              Ferozpur, Lahore<br>
+              Ferozpur Road, Lahore<br>
               Pakistan <br>
               <strong>Email:</strong> <br> amna@syntics.co<br>azlan@syntics.co <br>faizan@syntics.co
             </p>
