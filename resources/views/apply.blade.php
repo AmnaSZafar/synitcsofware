@@ -424,13 +424,13 @@
                 </section>
                 <!-- End Pricing Section -->  
       </main>
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+   <!-- ======= Footer ======= -->
+   <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-md-1"></div>
+          <div class="col-md-2 footer-contact">
             <h3>Syntics Software</h3>
             <p>
               Ferozpur Road, Lahore<br>
@@ -439,7 +439,7 @@
             </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-md-2 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/#home">Home</a></li>
@@ -450,7 +450,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-md-2 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/#services">Web Design</a></li>
@@ -461,7 +461,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-md-2 footer-links">
             <h4>Our Trainings</h4>
             <ul>
               {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li> --}}
@@ -471,6 +471,10 @@
               {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> --}}
             </ul>
           </div>
+          <div class="col-md-2">
+            <h4>Our License</h4>
+            <img src="{{ secure_asset('assets/img/license.jpg') }}" class="img-fluid" alt="License">
+          </div>
 
         </div>
       </div>
@@ -478,7 +482,7 @@
     <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
+        <div class="copyright" style="color: rgba(55, 64, 85, 0.9) !important;">
           &copy; Copyright <strong><span>Syntics</span></strong>. All Rights Reserved
         </div>
         
@@ -492,7 +496,6 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->

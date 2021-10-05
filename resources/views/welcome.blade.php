@@ -76,7 +76,7 @@
       <h1>We provide custom digital solutions for our clients and trainings for enthusiasts</h1>
       {{-- <h2 style="font-style: bold">Introducing Training for young enthusiasts</h2> --}}
       {{-- <hr class="bg-white container"> --}}
-      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee) <br>Remote access for Students & Females</span></h2>
+      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee) <br>Remote Course Internship Access for outstationed candidates, Graduate Students, working Professionals & Females</span></h2>
       
       {{-- <hr class="bg-white container"> --}}
       {{-- <a href="#about" class="btn-get-started scrollto">Get Started</a> --}}
@@ -1046,8 +1046,8 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-md-1"></div>
+          <div class="col-md-2 footer-contact">
             <h3>Syntics Software</h3>
             <p>
               Ferozpur Road, Lahore<br>
@@ -1056,7 +1056,7 @@
             </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-md-2 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/#home">Home</a></li>
@@ -1067,7 +1067,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-md-2 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/#services">Web Design</a></li>
@@ -1078,7 +1078,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-md-2 footer-links">
             <h4>Our Trainings</h4>
             <ul>
               {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li> --}}
@@ -1087,6 +1087,10 @@
               <li><i class="bx bx-chevron-right"></i> <a href="/#pricing">Game Development</a></li>
               {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> --}}
             </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Our License</h4>
+            <img src="{{ secure_asset('assets/img/license.jpg') }}" class="img-fluid" alt="License">
           </div>
 
         </div>
