@@ -52,7 +52,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto " href="/#portfolio">Projects</a></li>
           {{-- <li><a class="nav-link scrollto" href="#team">Team</a></li> --}}
           {{-- <li><a class="nav-link scrollto" href="#pricing">Courses</a></li> --}}
           <li class="dropdown"><a class="nav-link scrollto" href="#pricing"><span>Study-Internship Program</span> <i class="bi bi-chevron-down"></i></a>
@@ -76,7 +76,7 @@
       <h1>We provide custom digital solutions for our clients and trainings for enthusiasts</h1>
       {{-- <h2 style="font-style: bold">Introducing Training for young enthusiasts</h2> --}}
       {{-- <hr class="bg-white container"> --}}
-      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee) <br>Remote Course Internship Access for outstationed candidates, Graduate Students, working Professionals & Females</span></h2>
+      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee) <br>Remote Course Internship Access for Outstationed candidates, Graduate Students, Working Professionals & Females</span></h2>
       
       {{-- <hr class="bg-white container"> --}}
       {{-- <a href="#about" class="btn-get-started scrollto">Get Started</a> --}}
@@ -490,37 +490,38 @@
     <!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    {{-- <section id="team" class="team section-bg">
+    <section id="team" class="team section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Instructors</h2>
+          {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
         </div>
 
         <div class="row">
-
+          <div class="col-lg-2"></div>
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="{{ secure_asset('assets/img/instructor-1.png') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  {{-- <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> --}}
+                  React | Linux | BlockChain | AI
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Shahid Qureshi</h4>
+                <span>IT Manager</span>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
+         
+          <div class="col-lg-5 col-md-6 d-flex justify-content-center">
+            <div class="align-middle">
+              {{-- <div class="member-img">
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -532,10 +533,11 @@
               <div class="member-info">
                 <h4>Sarah Jhonson</h4>
                 <span>Product Manager</span>
-              </div>
+              </div> --}}
+              I hod Post Graduate diploma and BSc(Hons) in computing from British universities. After my graduation, I  worked in the IT industry for over 9 years in the UK. At the tail-end of 2019, I moved down to Dubai where I worked as an IT Manager. I have worked with wide variety of employers ranging from web hosting companies to charities. I'm a life-long learner and always keep myself abreast with latest technologies. I have completed many online courses during past 5 years. The list of courses includes Linux, React, Artificial intelligence, bloackchain and many more. I have been graduated from a  highly selective and very intense AI mastercamp called Strive school based in Germany, entirely remote and backed by YCombinator.
             </div>
           </div>
-
+{{-- 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
@@ -570,12 +572,12 @@
                 <span>Accountant</span>
               </div>
             </div>
-          </div>
+          </div> --}}
 
         </div>
 
       </div>
-    </section> --}}
+    </section>
     <!-- End Team Section -->
 
           <!-- ======= Pricing Section ======= -->
@@ -1090,9 +1092,8 @@
           </div>
           <div class="col-md-2">
             <h4>Our License</h4>
-            <img src="{{ secure_asset('assets/img/license.jpg') }}" class="img-fluid" alt="License">
+            <img src="{{ secure_asset('assets/img/license.png') }}" class="img-fluid" alt="License">
           </div>
-
         </div>
       </div>
     </div>
