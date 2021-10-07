@@ -13,22 +13,22 @@
   <script src="https://kit.fontawesome.com/e2d4df4492.js" crossorigin="anonymous"></script>
               
   <!-- Favicons -->
-  <link href="{{ secure_asset('assets/img/logo.png') }}" rel="icon">
-  <link href="{{ secure_asset('assets/img/logo.png') }}" rel="apple-touch-icon">
+  <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{ secure_asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
   <!-- bootstrap5 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Template Main CSS File -->
-  <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
   <style>
     .body {
       color: rgba(55, 64, 85, 0.9) !important;
@@ -43,7 +43,7 @@
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h2 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
+      <h2 class="logo"><a href="/"> <img src="{{ asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -76,7 +76,7 @@
       <h1>We provide custom digital solutions for our clients and trainings for enthusiasts</h1>
       {{-- <h2 style="font-style: bold">Introducing Training for young enthusiasts</h2> --}}
       {{-- <hr class="bg-white container"> --}}
-      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee) <br>Remote Course Internship Access for Outstationed candidates, Graduate Students, Working Professionals & Females</span></h2>
+      <h2 style="font-style:bold">International Certifications By <a href="https://www.bcs.org/" target="_blank">BCS.ORG <img src="{{ asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""></a>  |<span class="font-weight-bold" style="color:#ffc107;"> Scholarships for Toppers (No Certification Fee) <br>Remote Course Internship Access for Outstationed candidates, Graduate Students, Working Professionals & Females</span></h2>
       
       {{-- <hr class="bg-white container"> --}}
       {{-- <a href="#about" class="btn-get-started scrollto">Get Started</a> --}}
@@ -95,19 +95,19 @@
          
 
           <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
           </div>
       
           <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-3 col-md-3 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{ secure_asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
           </div>
         
 
@@ -124,7 +124,7 @@
           <div class="col-md-6">
             <div class="embed-responsive embed-responsive-16by9">
               <video controls class="embed-responsive-item">
-                <source src="{{ secure_asset('assets/main-video.mp4') }}" type="video/mp4">
+                <source src="{{ asset('assets/main-video.mp4') }}" type="video/mp4">
               </video>
             </div>
           </div>
@@ -489,96 +489,7 @@
 
     <!-- End Portfolio Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container">
 
-        <div class="section-title">
-          <h2>Instructors</h2>
-          {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
-        </div>
-
-        <div class="row">
-          <div class="col-lg-2"></div>
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src="{{ secure_asset('assets/img/instructor-1.png') }}" class="img-fluid" alt="">
-                <div class="social">
-                  {{-- <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a> --}}
-                  React | Linux | BlockChain | AI
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Shahid Qureshi</h4>
-                <span>IT Manager</span>
-              </div>
-            </div>
-          </div>
-         
-          <div class="col-lg-5 col-md-6 d-flex justify-content-center">
-            <div class="align-middle">
-              {{-- <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div> --}}
-              I hod Post Graduate diploma and BSc(Hons) in computing from British universities. After my graduation, I  worked in the IT industry for over 9 years in the UK. At the tail-end of 2019, I moved down to Dubai where I worked as an IT Manager. I have worked with wide variety of employers ranging from web hosting companies to charities. I'm a life-long learner and always keep myself abreast with latest technologies. I have completed many online courses during past 5 years. The list of courses includes Linux, React, Artificial intelligence, bloackchain and many more. I have been graduated from a  highly selective and very intense AI mastercamp called Strive school based in Germany, entirely remote and backed by YCombinator.
-            </div>
-          </div>
-{{-- 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div> --}}
-
-        </div>
-
-      </div>
-    </section>
-    <!-- End Team Section -->
 
           <!-- ======= Pricing Section ======= -->
           <section id="pricing" class="pricing section-bg">
@@ -589,7 +500,7 @@
                 <p>We offer One Year courses which are specially designed for young enthusiasts. We offer market-competitve trainings and internship opportunities.</p>
               </div>
               <div class="container my-5 justify-content-center d-flex">
-                  <img src="{{ secure_asset('/assets/img/Internships.png') }}" alt="We offer Internship opportunities" class="img-fluid">
+                  <img src="{{ asset('/assets/img/Internships.png') }}" alt="We offer Internship opportunities" class="img-fluid">
               </div>
               
               <div class="row">
@@ -822,7 +733,154 @@
             </div>
           </section>
           <!-- End Pricing Section -->
+              <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Team</h2>
+          {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="{{ asset('assets/img/instructor-1.png') }}" class="img-fluid" alt="">
+                <div class="social">
+                  {{-- <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> --}}
+                  React | Linux | BlockChain | AI
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Shahid Qureshi</h4>
+                <span>AI Instructor</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 col-sm-12 d-flex justify-content-center">
+            <div class="align-middle">
+              I hold Post Graduate diploma and BSc(Hons) in computing from British universities. After my graduation, I  worked in the IT industry for over 9 years in the UK. At the tail-end of 2019, I moved down to Dubai where I worked as an IT Manager. I have worked with wide variety of employers ranging from web hosting companies to charities. I'm a life-long learner and always keep myself abreast with latest technologies. I have completed many online courses during past 5 years. The list of courses includes Linux, React, Artificial intelligence, bloackchain and many more. I have been graduated from a  highly selective and very intense AI mastercamp called Strive school based in Germany, entirely remote and backed by YCombinator.
+            </div>
+          </div>
+        </div>
+        <hr>
+        {{-- <div class="row">
+          
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+            
+              <div class="member-info">
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Faizan Tariq &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <span>Full-Stack Web Instructor</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 d-flex justify-content-center">
+            <div class="align-middle">
+
+            </div>
+          </div>
+        </div>
+        <hr> --}}
+        <div class="row">
+          
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="{{ asset('assets/img/azlan.png') }}" class="img-fluid" alt="">
+                <div class="social">
+                  {{-- <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> --}}
+                  MERN Stack Developer
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Syed Azlan Ul-Haq &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <span>CEO of Syntics</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 d-flex justify-content-center">
+            <div class="align-middle">
+              Experienced Member with a demonstrated history of working in the computer software industry. 
+              Skilled in Web App Development knowing a wide 
+              range of programming languages.
+              Strong operations professional with a Bachelor of
+              Computer Science - BCS (Hons.) from Forman Christian
+              College (A Chartered University). Worked in Different
+              Web Applications projects such as accounting software,
+              educational portals, e-commerce as well as artificial
+              intelligence. 
+              As a CEO of Syntics Soft,
+              I will be bringing my experience in the field of Computer Science
+              and leading my department to success with professionalism 
+              and ethics which will not only help my department to achieve 
+              success, but also, become valuable members of the IT industry
+              of Pakistan.
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-info">
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Amna Salman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <span>IT Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 d-flex justify-content-center">
+            <div class="align-middle">
+              IT Manager and Full-stack web Developer, bringing forth her industry experience to strategize & optimize the company's model. She’s honed her communication, management, and problem-solving skills. 
+Her versatility with assistance to everyone provides successful management of the company's responsibilities.  Amna holds a BS Honors in Computer Science from Forman Christian College (A Chartered University). 
+              
+            </div>
+          </div>
+        </div>
+        {{-- <div class="row">
+          
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+            
+              <div class="member-info">
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Muhammad Usman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <span>CEO of Syntics</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 d-flex justify-content-center">
+            <div class="align-middle">
+              Muhammad Usman has an invaluable 10 years track 
+              record of prudent financial management from working 
+              in senior finance manager roles across various businesses, 
+              including manufacturing, education, international trade and 
+              Investment management and analysis. He is a qualified accountant 
+              as serving as chief financial officer in Syntics. His primary 
+              responsibilities are to maintain financial records in accordance 
+              with applicable laws and regulation, preparation of strategic budgets, 
+              preparation of strategic competitive reports and act as main person to 
+              collaborate with international clients for business development and to 
+              provide cost effective solutions with the help of existing professional IT team.
+              He is currently holding numerous financial achievements: FCCA, ACCA, UAECA, 
+              CGMA and Advanced Diploma in Finance, Accounting and Business Analysis.
+            </div>
+          </div>
+        </div> --}}
+      </div>
+    </section>
+    <!-- End Team Section -->
     <!-- ======= Pricing Section ======= -->
     
     {{-- <section id="pricing" class="pricing">
@@ -1092,7 +1150,7 @@
           </div>
           <div class="col-md-2">
             <h4>Our License</h4>
-            <img src="{{ secure_asset('assets/img/license.png') }}" class="img-fluid" alt="License">
+            <img src="{{ asset('assets/img/license.png') }}" class="img-fluid" alt="License">
           </div>
         </div>
       </div>
