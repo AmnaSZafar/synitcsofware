@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 // Route::view('/apply', 'apply')->name('apply');
 Route::resource('apply', admissionController::class);
+Route::view('seminar', 'seminar')->name('seminar');

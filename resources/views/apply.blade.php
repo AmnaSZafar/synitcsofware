@@ -132,13 +132,16 @@
           <li><a class="nav-link scrollto" href="/#services">Services</a></li>
           <li><a class="nav-link scrollto " href="/#portfolio">Projects</a></li>
           {{-- <li><a class="nav-link scrollto" href="#team">Team</a></li> --}}
-          <li><a class="nav-link scrollto" href="/#pricing">Courses</a></li>
+          {{-- <li><a class="nav-link scrollto" href="/#pricing">Courses</a></li> --}}
           <li class="dropdown"><a href=""><span>Study-Internship Program</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{ route('apply.index') }}">Apply</a></li>
-              
-            </ul>
-          </li>
+              <li><a href="{{ route('seminar') }}">Seminar</a></li>
+                
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="/#careers">Careers</a></li>
           <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -285,7 +288,7 @@
                     <div class="section-title" style="color: rgba(55, 64, 85, 0.9) !important;">
                       <h2>Study-Internship Program Details</h2>
                       <hr>
-                      <h2>Cost-Effective | 25% More Learning-Content | Market-Competitive </h2>
+                      <h2>Cost-Effective | 95% More Learning-Content | Market-Competitive </h2>
                       <p>We offer One Year courses which are specially designed for young enthusiasts. We offer market-competitve trainings and internship opportunities.</p>
                       
                     </div>
@@ -313,6 +316,7 @@
                               <li><i class="fab fa-react"></i> ReactJs <i class="fas fa-check"></i></li>
                               <li><i class="fab fa-vuejs"></i> VueJs <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
+                              <li>Discretion: Certification Fee is not included. (Optional)</li>
                               <p>
                                 <button class="btn btn-outline-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                   Read More
@@ -377,6 +381,7 @@
                               <li><i class="fab fa-codepen"></i> Deep Learning <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-code-branch"></i> Deep Learning Projects <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
+                              <li>Discretion: Certification Fee is not included. (Optional)</li>
                               <li></li>
                               <li></li>
                               <p>

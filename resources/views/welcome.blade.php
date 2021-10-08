@@ -40,33 +40,42 @@
 <body>
 
   <!-- ======= Header ======= -->
+  
   <header id="header" class="fixed-top header-transparent">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h2 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="/#portfolio">Projects</a></li>
-          {{-- <li><a class="nav-link scrollto" href="#team">Team</a></li> --}}
-          {{-- <li><a class="nav-link scrollto" href="#pricing">Courses</a></li> --}}
-          <li class="dropdown"><a class="nav-link scrollto" href="#pricing"><span>Study-Internship Program</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="{{ route('apply.index') }}">Apply</a></li>
-              
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+    <div class="container-fluid text-center text-white m-0">
+      <marquee behavior="scroll" direction="right"><h6>15% off for the first 50 students!</h6></marquee> 
     </div>
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <h2 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto " href="/#portfolio">Projects</a></li>
+            
+            {{-- <li><a class="nav-link scrollto" href="#pricing">Courses</a></li> --}}
+            <li class="dropdown"><a class="nav-link scrollto" href="/#pricing"><span>Study-Internship Program</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="{{ route('apply.index') }}">Apply</a></li>
+                <li><a href="{{ route('seminar') }}">Seminar</a></li>
+                
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="/#careers">Careers</a></li>
+            <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+      </div>
+    
+    
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
@@ -549,6 +558,7 @@
                         <li><i class="fab fa-react"></i> ReactJs <i class="fas fa-check"></i></li>
                         <li><i class="fab fa-vuejs"></i> VueJs <i class="fas fa-check"></i></li>
                         <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
+                              <li>Discretion: Certification Fee is not included. (Optional)</li>
                         {{-- <li class="na">Pharetra massa</li> --}}
                         {{-- <li class="na">Massa ultricies mi</li> --}}
                         <p>
@@ -614,6 +624,7 @@
                         <li><i class="fab fa-codepen"></i> Deep Learning <i class="fas fa-check"></i></li>
                         <li><i class="fas fa-code-branch"></i> Deep Learning Projects <i class="fas fa-check"></i></li>
                         <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
+                              <li>Discretion: Certification Fee is not included. (Optional)</li>
                         <li></li>
                              
                               <p>
@@ -673,6 +684,7 @@
                       <li><i class="fas fa-code-branch"></i> Building humanoids <i class="fas fa-check"></i></li>
                       <li><i class="fab fa-codepen"></i> Mega Game development Projects <i class="fas fa-check"></i></li>
                       <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
+                              <li>Discretion: Certification Fee is not included. (Optional)</li>
                       <li></li>
                       <li></li>
                       <li></li>
@@ -738,7 +750,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Team</h2>
+          <h2 style="color: rgba(55, 64, 85, 0.9) !important; font-size: 40px;">Team</h2>
           {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
         </div>
 
@@ -769,25 +781,27 @@
           </div>
         </div>
         <hr>
-        {{-- <div class="row">
+        <div class="row">
           
           <div class="col-lg-1"></div>
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
             
               <div class="member-info">
-                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Faizan Tariq &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mr Tariq &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
                 <span>Full-Stack Web Instructor</span>
               </div>
             </div>
           </div>
           <div class="col-lg-7 col-md-6 d-flex justify-content-center">
             <div class="align-middle">
-
+              Mr. Tariq is at the pinnacle of mentoring. He has expertise in numerous fields together with MERN, MEAN Stack, Laravel, and Web Development. He is an online guide to over 2,000 students throughout Pakistan. 
+His Web Development courses have obtained high admiration due to his comprehensive tutorials, sensible techniques, & masses of palms-on examples. 
+He is a Software Engineer, Computer expert, and Blogger. His teaching style is extremely versatile. He teaches with practical real-world examples. He is Google Certified, also dealing with the cooperate pieces of training.
             </div>
           </div>
         </div>
-        <hr> --}}
+        <hr>
         <div class="row">
           
           <div class="col-lg-1"></div>
@@ -834,6 +848,16 @@
           <div class="col-lg-1"></div>
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
+              <div class="member-img">
+                <img src="{{ secure_asset('assets/img/amna.png') }}" class="img-fluid" alt="">
+                <div class="social">
+                  {{-- <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a> --}}
+                  LAMP Stack Developer
+                </div>
+              </div>
               <div class="member-info">
                 <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Amna Salman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
                 <span>IT Manager</span>
@@ -874,7 +898,7 @@ Her versatility with assistance to everyone provides successful management of th
               collaborate with international clients for business development and to 
               provide cost effective solutions with the help of existing professional IT team.
               He is currently holding numerous financial achievements: FCCA, ACCA, UAECA, 
-              CGMA and Advanced Diploma in Finance, Accounting and Business Analysis.
+              CGMA and Advanced Diploma in Finance, Management Accounting, Business Development, and Business Analysis.
             </div>
           </div>
         </div> --}}
@@ -969,45 +993,59 @@ Her versatility with assistance to everyone provides successful management of th
     <!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    {{-- <section id="faq" class="faq section-bg">
+    <section id="careers" class="faq section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 style="color: rgba(55, 64, 85, 0.9) !important; font-size: 40px;">Careers</h2>
+          <p>Email your resume and cover letter at recruitment@syntics.co</p>
         </div>
 
         <div class="faq-list">
           <ul>
             <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+             <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Chairman of Board (1 Position Vaccant)<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse ml-3" data-bs-parent=".faq-list">
                 <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  15 years of experience <br>
+                  Ensures that the firm's duties to shareholders are being fulfilled <br>
+                  Deals with upper management
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+              </i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">IT Supervisors (2 Positions Vaccant) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse ml-3" data-bs-parent=".faq-list">
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  3 years of experience <br>
+                  One Male & One Female <br>
+                  Responsible for installing and managing IT infrastructure <br>
+                  Analyze a company's technology needs, develop systems and software
+
+
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+              </i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Business Development Officer (2 Positions Vaccant) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse ml-3" data-bs-parent=".faq-list">
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  5 years of experience <br>
+                  One Male & One Female <br> 
+                  Optimize Business Model <br>
+                  Widen Business's reach and approach <br>
+                  Responsible for Business's growth, Planning, lead branch effectively <br>
+                  Ensure achievement of Sales and profitability objectives <br>
+                  Manage client relationships of the Business <br>
+                  
                 </p>
               </div>
             </li>
-
+{{-- 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              </i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
                   Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
@@ -1016,19 +1054,19 @@ Her versatility with assistance to everyone provides successful management of th
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              </i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>
                   Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
                 </p>
               </div>
-            </li>
+            </li> --}}
 
           </ul>
         </div>
 
       </div>
-    </section> --}}
+    </section>
     <!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
