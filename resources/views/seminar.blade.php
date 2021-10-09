@@ -119,9 +119,12 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
+    <div class="container-fluid text-center text-white m-0">
+        <marquee behavior="scroll" direction="right"><h6 class="lead">CLASSES STARTING FROM 1 <sup>st</sup> DECEMBER, 2021</h6></marquee> 
+      </div>
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h1>
+      <h1 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -131,8 +134,8 @@
           <li><a class="nav-link scrollto" href="/#about">About</a></li>
           <li><a class="nav-link scrollto" href="/#services">Services</a></li>
           <li><a class="nav-link scrollto " href="/#portfolio">Projects</a></li>
-          {{-- <li><a class="nav-link scrollto" href="#team">Team</a></li> --}}
-          {{-- <li><a class="nav-link scrollto" href="/#pricing">Courses</a></li> --}}
+          <li><a class="nav-link scrollto" href="/#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="/#pricing">Courses</a></li>
           <li class="dropdown"><a href=""><span>Study-Internship Program</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{ route('apply.index') }}">Apply</a></li>
@@ -140,7 +143,7 @@
                 
               </ul>
             </li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="/#team">Team</a></li>
             <li><a class="nav-link scrollto" href="/#careers">Careers</a></li>
           <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
         </ul>
@@ -158,7 +161,7 @@
         <div class="container mt-5">
             <h2 style="color: rgba(55, 64, 85, 0.9) !important; font-size: 40px;">Seminars</h2>
             <h3 style="color: rgba(55, 64, 85, 0.9) !important; font-size: 25px;">Coming Soon</h3>
-            <table class="pl-5 table table-borderless table-info">
+            <table class="pl-5 table table-borderless">
                 <thead class="ml-5">
                   <tr>
                     <th scope="col" style="color: rgba(55, 64, 85, 0.9) !important; font-size: 25px;">Date</th>
@@ -169,14 +172,14 @@
                 <tbody class="ml-5">
                   <tr>
                     <td>...</td>
-                    <td></td>
-                    <td></td>
+                    <td>...</td>
+                    <td>...</td>
                    
                   </tr>
                   
                 </tbody>
               </table>
-            <br>
+            <br><br>
              <img src="{{ secure_asset('assets/img/seminar.png') }}" alt="apply banner" class="img-fluid">
             
         </div>
@@ -216,8 +219,7 @@
                               <li><i class="fab fa-react"></i> ReactJs <i class="fas fa-check"></i></li>
                               <li><i class="fab fa-vuejs"></i> VueJs <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
-                              <li>Discretion: Certification Fee is not included. (Optional)</li>
-                              <li>Discretion: Certification Fee is not included. (Optional)</li>
+                              <li>Disclaimer: <br> <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG International Certification</b></a> Fee is not included. (Optional)</li>
                               <p>
                                 <button class="btn btn-outline-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                   Read More
@@ -282,7 +284,7 @@
                               <li><i class="fab fa-codepen"></i> Deep Learning <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-code-branch"></i> Deep Learning Projects <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
-                              <li>Discretion: Certification Fee is not included. (Optional)</li>
+                              <li>Disclaimer: <br> <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG International Certification</b></a> Fee is not included. (Optional)</li>
                               <li></li>
                               <li></li>
                               <p>
@@ -341,7 +343,7 @@
             <p>
               Ferozpur Road, Lahore<br>
               Pakistan <br>
-              <strong>Email:</strong> <br> amna@syntics.co<br>azlan@syntics.co <br>faizan@syntics.co
+              <strong>Email:</strong> <br> amna@syntics.co<br>azlan@syntics.co 
             </p>
           </div>
 

@@ -43,22 +43,22 @@
   
   <header id="header" class="fixed-top header-transparent">
     <div class="container-fluid text-center text-white m-0">
-      <marquee behavior="scroll" direction="right"><h6>15% off for the first 50 students!</h6></marquee> 
+      <marquee behavior="scroll" direction="right"><h6 class="lead">CLASSES STARTING FROM 1 <sup>st</sup> DECEMBER, 2021</h6></marquee> 
     </div>
       <div class="container d-flex align-items-center justify-content-between">
 
-        <h2 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics Software</a></h2>
+        <h2 class="logo"><a href="/"> <img src="{{ secure_asset('assets/img/logo.png') }}" alt="logo"> Syntics</a></h2>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
   
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto active" href="/#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="/#about">About</a></li>
+            <li><a class="nav-link scrollto" href="/#services">Services</a></li>
             <li><a class="nav-link scrollto " href="/#portfolio">Projects</a></li>
             
-            {{-- <li><a class="nav-link scrollto" href="#pricing">Courses</a></li> --}}
+            <li><a class="nav-link scrollto" href="/#pricing">Courses</a></li>
             <li class="dropdown"><a class="nav-link scrollto" href="/#pricing"><span>Study-Internship Program</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="{{ route('apply.index') }}">Apply</a></li>
@@ -66,7 +66,7 @@
                 
               </ul>
             </li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="/#team">Team</a></li>
             <li><a class="nav-link scrollto" href="/#careers">Careers</a></li>
             <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
           </ul>
@@ -558,7 +558,7 @@
                         <li><i class="fab fa-react"></i> ReactJs <i class="fas fa-check"></i></li>
                         <li><i class="fab fa-vuejs"></i> VueJs <i class="fas fa-check"></i></li>
                         <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
-                              <li>Discretion: Certification Fee is not included. (Optional)</li>
+                              <li>Disclaimer: <br> <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG International Certification</b></a> Fee is not included. (Optional)</li>
                         {{-- <li class="na">Pharetra massa</li> --}}
                         {{-- <li class="na">Massa ultricies mi</li> --}}
                         <p>
@@ -624,7 +624,7 @@
                         <li><i class="fab fa-codepen"></i> Deep Learning <i class="fas fa-check"></i></li>
                         <li><i class="fas fa-code-branch"></i> Deep Learning Projects <i class="fas fa-check"></i></li>
                         <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
-                              <li>Discretion: Certification Fee is not included. (Optional)</li>
+                              <li>Disclaimer: <br> <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG International Certification</b></a> Fee is not included. (Optional)</li>
                         <li></li>
                              
                               <p>
@@ -684,7 +684,7 @@
                       <li><i class="fas fa-code-branch"></i> Building humanoids <i class="fas fa-check"></i></li>
                       <li><i class="fab fa-codepen"></i> Mega Game development Projects <i class="fas fa-check"></i></li>
                       <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
-                              <li>Discretion: Certification Fee is not included. (Optional)</li>
+                              <li>Disclaimer: <br> <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG International Certification</b></a> Fee is not included. (Optional)</li>
                       <li></li>
                       <li></li>
                       <li></li>
@@ -1009,7 +1009,30 @@ Her versatility with assistance to everyone provides successful management of th
                 <p>
                   15 years of experience <br>
                   Ensures that the firm's duties to shareholders are being fulfilled <br>
-                  Deals with upper management
+                  Deals with upper management <br>
+                  
+The board chair is the leader of the board.The board chair is responsible for: <br>
+• Ensuring the integrity and effectiveness of the board’s governance role and processes. <br>
+• Presiding at meetings of the board, the board’s Executive Committee, if the board has one, and the board’s
+Executive Performance and Compensation Committee <br>
+• Representing the board within the hospital and the hospital in the community. <br>
+• Maintaining effective relationships with board members, management and stakeholders. <br>
+
+The board chair ensures the board meets its obligations and fulfills its governance responsibilities.The board
+chair oversees the quality of the board’s governance processes including: <br>
+• Ensuring that the board performs a governance role that respects and understands the role of management. <br>
+• Ensuring that the board adopts an annual workplan and objectives that are consistent with the hospital’s
+strategic directions, mission and vision. <br>
+• Ensuring that the work of the board committees is aligned with the board’s role and annual work plan and
+that the board respects and understands the role of board committees and does not redo committee work
+at the board level. <br>
+• Ensuring board succession by ensuring there are processes in place to recruit, select and train directors
+with the skills, experience, background and personal qualities required for effective board governance. <br>
+• Ensuring that the board and individual directors have access to appropriate education. <br>
+• Overseeing the board’s evaluation processes and providing constructive feedback to individual committee
+chairs and board members as required. <br>
+• Ensuring that the board’s governance structures and processes are reviewed, evaluated, and revised from
+time to time.
                 </p>
               </div>
             </li>
@@ -1022,7 +1045,18 @@ Her versatility with assistance to everyone provides successful management of th
                   One Male & One Female <br>
                   Responsible for installing and managing IT infrastructure <br>
                   Analyze a company's technology needs, develop systems and software
+                  IT Supervisors should display stronger than average communication, analytical, organizational and problem solving skills to be successful in this field. <br>
+                   They should be team-building leaders who possess time management and troubleshooting skills and a thorough understanding of computer systems and functions. <br>
+                    Knowledge of business operations, such as financial and personnel management, is important. <br>
+                     A deep understanding of project management practices and processes, such as scheduling, budgeting and meeting deadlines, is crucial for IT Supervisors. <br>
+                      In addition to these important skills and abilities, employers typically seek IT Supervisors with the following capabilities: <br>
 
+Knowledge of computer operating, software and other systems. <br>
+Understanding of most recent computer system upgrades. <br>
+Integrating new and upgraded systems. <br>
+Monitoring systems operations and make recommendations as needed. <br>
+Developing technological procedural and operations manuals. <br>
+IT staff selection and training.
 
                 </p>
               </div>
@@ -1039,6 +1073,17 @@ Her versatility with assistance to everyone provides successful management of th
                   Responsible for Business's growth, Planning, lead branch effectively <br>
                   Ensure achievement of Sales and profitability objectives <br>
                   Manage client relationships of the Business <br>
+                  A Business Development Officer’s main goal is to identify opportunities for business growth and create marketing strategies based on those opportunities in order to meet and exceed revenue goals. <br>
+                   A Business Development Officer’s typical responsibilities include: <br>
+
+Analyzing current and past financial data and providing strategies to cut costs and increase revenue <br>
+Leading the charge on market research plans to identify new opportunities <br>
+Working with executives to implement marketing strategies and new opportunities <br>
+Encouraging new and existing clients by creating and improving proposals <br>
+Tracking expenses and maintaining the company budget <br>
+Ensuring that the company meets revenue targets <br>
+Providing training and mentoring to other members of the team <br>
+Developing and pitching ideas for potential investors <br>
                   
                 </p>
               </div>
@@ -1150,7 +1195,7 @@ Her versatility with assistance to everyone provides successful management of th
             <p>
               Ferozpur Road, Lahore<br>
               Pakistan <br>
-              <strong>Email:</strong> <br> amna@syntics.co<br>azlan@syntics.co <br>faizan@syntics.co
+              <strong>Email:</strong> <br> amna@syntics.co<br>azlan@syntics.co 
             </p>
           </div>
 
