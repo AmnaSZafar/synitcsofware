@@ -120,7 +120,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container-fluid text-center text-white m-0">
-      <marquee behavior="scroll" direction="right"><h6 class="lead">CLASSES STARTING FROM 1 <sup>st</sup> DECEMBER, 2021</h6></marquee> 
+      <marquee behavior="scroll" direction="right"><h6 class="lead">STUDY-INTERNSHIP PROGRAM STARTING FROM 1 <sup>st</sup> DECEMBER, 2021</h6></marquee> 
     </div>
     <div class="container d-flex align-items-center justify-content-between">
 
@@ -319,7 +319,9 @@
                               <li><i class="fab fa-react"></i> ReactJs <i class="fas fa-check"></i></li>
                               <li><i class="fab fa-vuejs"></i> VueJs <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
-                              <li>Disclaimer: <br> <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG International Certification</b></a> Fee is not included. (Optional)</li>
+                              <li>Disclaimer: <br> 
+                                {{-- <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG </b></a>  --}}
+                                International Certification Fee is not included. (Optional)</li>
                               <p>
                                 <button class="btn btn-outline-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                   Read More
@@ -384,7 +386,9 @@
                               <li><i class="fab fa-codepen"></i> Deep Learning <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-code-branch"></i> Deep Learning Projects <i class="fas fa-check"></i></li>
                               <li><i class="fas fa-briefcase"></i> <b>INTERNSHIP</b> <i class="fas fa-check"></i></li>
-                              <li>Disclaimer: <br> <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG International Certification</b></a> Fee is not included. (Optional)</li>
+                              <li>Disclaimer: <br> 
+                                {{-- <a class="text-decoration-none text-warning" href="https://www.bcs.org/" target="_blank"><img src="{{ secure_asset('assets/img/clients/client-1.png') }}" height="60px" width="auto" alt=""> <b> BCS.ORG </b></a>  --}}
+                                International Certification Fee is not included. (Optional)</li>
                               <li></li>
                               <li></li>
                               <p>
